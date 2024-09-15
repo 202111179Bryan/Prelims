@@ -1,3 +1,76 @@
-git add resume.html
-git commit -m "Added resume.html"
-git push origin feature-branch
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Online Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+        .resume {
+            background-color: #fff;
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1, h2 {
+            color: #4CAF50;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section-title {
+            font-weight: bold;
+            font-size: 24px;
+            border-bottom: 2px solid #4CAF50;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="resume">
+        <h1>Your Name</h1>
+        <p><strong>Email:</strong> your.email@example.com | <strong>Phone:</strong> (123) 456-7890 | <strong>Location:</strong> Your City, Country</p>
+
+        <div class="section">
+            <div class="section-title">Summary</div>
+            <p>Brief description about your professional background and career goals.</p>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Experience</div>
+            <ul>
+                <li><strong>Job Title</strong> – Company Name (Start Year - End Year)</li>
+                <li>Responsibilities and achievements in this role.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Education</div>
+            <ul>
+                <li><strong>Degree</strong> – University Name (Start Year - End Year)</li>
+                <li>Major achievements, GPA (optional), and honors.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Skills</div>
+            <ul>
+                <li>Skill 1</li>
+                <li>Skill 2</li>
+                <li>Skill 3</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
